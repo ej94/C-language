@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main (void)
+{
+	int minutes=0;
+	double minutes_in_year=365*24*60 ;
+	double minutes_in_days=60*24;
+	double years=0.0;
+	double days=0.0;
+	
+	printf("Please Enter MINUTES\n",minutes);
+	scanf("%d",&minutes);
+	
+	years=minutes/minutes_in_year;
+	days=minutes/minutes_in_days;	
+	
+	printf("Your minutes = %lf years\n",years);
+	printf("Your minutes = %lf days\n",days);
+	return 0;
+	
+}
