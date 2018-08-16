@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main (void)
+{
+	enum company{Google,Facebook,Xerox,Yahoo,Ebay,Microsoft};
+	enum company part1;
+	enum company part2;
+	enum company part3;
+	
+	part1=Xerox;
+	part2=Google;
+	part3=Ebay;
+	
+	printf("Xerox number is : %d\n",part1);
+	printf("Google number is: %d\n",part2);
+	printf("Ebay number is: %d\n",part3);
+	
+	return 0;
+	
+}
