@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void)
+{
+	int a;
+	int b;
+	
+	printf("Please Enter The Number\n");
+	scanf("%d",&a);
+	
+	b=a%2;
+	
+	if(b == 0){
+		printf("1");
+	}
+	else{
+		printf("0");
+	}
+    return 0;
+}
