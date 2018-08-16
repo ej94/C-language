@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main (void)
+{
+	double i;
+	double j;
+	double k;
+	double h;
+
+
+	printf("Please enter width\n");
+	scanf("%lf",&i);
+	
+	printf("Please enter height\n");
+	scanf("%lf",&j);
+	
+	k = 2*( i + j);
+	
+	printf("perimeter=%lf\n",k) ;	
+	
+	h = i * j ;
+	
+	printf("area=%lf\n",h ) ;
+	
+	return 0;
+	
+}
