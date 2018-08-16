@@ -1,0 +1,14 @@
+#include<stdbool.h>
+#include <stdio.h>
+
+int main(void)
+{
+    _Bool a=1;
+    _Bool b=1;
+    _Bool c;
+    c= a&&b;
+	
+	printf("%d", c);
+	return 0 ;
+	
+}
