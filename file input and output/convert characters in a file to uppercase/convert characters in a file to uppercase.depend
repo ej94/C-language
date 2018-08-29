@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1535537441 source:c:\users\user\desktop\c»y¨¥½m²ß\convert characters in a file to uppercase\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
